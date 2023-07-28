@@ -17,6 +17,7 @@ Shell содержит в себе общий State, а микрофронты �
 
 ## Technologies
     - TypeScript
+    - React
     - Webpack Module Federation
     - Webpack
     - Redux Toolkit
