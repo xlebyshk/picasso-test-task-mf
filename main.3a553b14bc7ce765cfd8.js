@@ -701,15 +701,15 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ../cj
 /***/ }),
 
 /***/ "webpack/container/reference/decrement":
-/*!*****************************************************************!*\
-  !*** external "Decrement@http://localhost:3002/remoteEntry.js" ***!
-  \*****************************************************************/
+/*!********************************************************************************!*\
+  !*** external "Decrement@https://xlebyshk.github.io/decrement/remoteEntry.js" ***!
+  \********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var __webpack_error__ = new Error();
 module.exports = new Promise((resolve, reject) => {
 	if(typeof Decrement !== "undefined") return resolve();
-	__webpack_require__.l("http://localhost:3002/remoteEntry.js", (event) => {
+	__webpack_require__.l("https://xlebyshk.github.io/decrement/remoteEntry.js", (event) => {
 		if(typeof Decrement !== "undefined") return resolve();
 		var errorType = event && (event.type === 'load' ? 'missing' : event.type);
 		var realSrc = event && event.target && event.target.src;
@@ -937,7 +937,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("c7d734319b8281a7b6bd")
+/******/ 		__webpack_require__.h = () => ("3a553b14bc7ce765cfd8")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
