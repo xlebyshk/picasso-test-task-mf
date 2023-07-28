@@ -1,4 +1,5 @@
 {
+  "homepage": "https://xlebyshk.github.io/picasso-test-task-mf/",
   "name": "shell",
   "version": "1.0.0",
   "description": "",
@@ -6,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack server --config webpack.config.js --open",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -28,6 +30,7 @@
     "babel-loader": "^9.1.3",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.8.1",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.3",
     "normalize.css": "^8.0.1",
     "sass-loader": "^13.3.2",
