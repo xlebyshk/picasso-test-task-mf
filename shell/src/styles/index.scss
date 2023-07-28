@@ -1,0 +1,16 @@
+@import "~normalize.css";
+
+*, *:after, *:before{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1C1C1E;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  justify-content: center;
+}
