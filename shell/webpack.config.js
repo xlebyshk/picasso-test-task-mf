@@ -45,10 +45,6 @@ module.exports = {
                 increment: "Increment@http://localhost:3001/remoteEntry.js",
                 decrement: "Decrement@http://localhost:3002/remoteEntry.js"
             },
-            shared:[
-                "react",
-                "react-dom"
-            ]
         }),
     ],
 }
