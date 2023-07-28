@@ -724,15 +724,15 @@ module.exports = new Promise((resolve, reject) => {
 /***/ }),
 
 /***/ "webpack/container/reference/increment":
-/*!*****************************************************************!*\
-  !*** external "Increment@http://localhost:3001/remoteEntry.js" ***!
-  \*****************************************************************/
+/*!********************************************************************************!*\
+  !*** external "Increment@https://xlebyshk.github.io/increment/remoteEntry.js" ***!
+  \********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var __webpack_error__ = new Error();
 module.exports = new Promise((resolve, reject) => {
 	if(typeof Increment !== "undefined") return resolve();
-	__webpack_require__.l("http://localhost:3001/remoteEntry.js", (event) => {
+	__webpack_require__.l("https://xlebyshk.github.io/increment/remoteEntry.js", (event) => {
 		if(typeof Increment !== "undefined") return resolve();
 		var errorType = event && (event.type === 'load' ? 'missing' : event.type);
 		var realSrc = event && event.target && event.target.src;
@@ -937,7 +937,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("f91e4745700ee0e9ba3c")
+/******/ 		__webpack_require__.h = () => ("c7d734319b8281a7b6bd")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
